@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style12.css">
+</head>
+<body>
+
+
+
+
+    <div class="quiz-container" id="quiz">
+        <div id="niveau"> 
+            <div id="nom">
+                Niveau
+            </div>
+            <div id="numero">
+                1
+            </div>
+            <div id="times">
+                Il te reste <div id="chrono"> 10</div>  secondes
+            </div>
+    
+        </div>
+        <div class="quiz-header">
+          <h2 id="question">Question Text</h2>
+      
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="a" class="answer">
+              <label for="a" id="a_text">Answer</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="b" class="answer">
+              <label for="b" id="b_text">Answer</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="c" class="answer">
+              <label for="c" id="c_text">Answer</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="d" class="answer">
+              <label for="d" id="d_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="e" class="answer">
+                <label for="e" id="e_text">Je ne sais pas </label>
+              </li>
+          </ul>
+        </div>
+        <button id="submit" >Submit</button>
+        <button id="quitter" onclick="quitter()" >Quitter</button>
+      </div>
+    </class>
+    
+<div id="choixNiveau">
+    <div id="titre"> <h1>EQUATION DU PREMIER DEGRE </h1> </div>
+    <div id="niveau1" onclick="niveau1()">
+        Niveau 1
+    </br>
+    (2 minutes par question)
+    </div>
+    <div id="niveau2" onclick="niveau2()">
+        Niveau 2
+    </br>
+    (1 minute par question)
+    </div>
+    <div id="niveau3" onclick="niveau3()">
+        Niveau 3
+    </br>
+    ( 30 secondes par question)
+    </div>
+    <div id="niveau4" onclick=" niveau4()">
+        Niveau 4
+    </br>
+    (15 secondes par question)
+    </div>
+    <div id="niveau5" onclick=" niveau5()">
+        Niveau 5
+    </br>
+    (5 secondes par question)
+    </div>
+</div>
+<div id="reponse">
+
+</div>
+
+<script src="index12.js"></script>
+</body>
+</html>
